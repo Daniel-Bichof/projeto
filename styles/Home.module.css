@@ -2,6 +2,16 @@
   padding: 0 2rem;
 }
 
+.header {
+  margin: 0;
+  padding: 0;
+  height: 80vh;
+  background-image: url(../public/pexels-cottonbro-3942924.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
@@ -10,6 +20,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.about {
+  max-width: 800px;
+  font-size: 1.1em;
+}
+
+.img {
+  background-image: url(../public/pexels-brett-sayles-1075757.jpg);
+  background-attachment: fixed;
+  background-position: 1em -1em;
+  background-size: 80%;
+  height: 50vh;
 }
 
 .footer {
@@ -41,6 +64,7 @@
 
 .title {
   margin: 0;
+  padding-top: 10rem;
   line-height: 1.15;
   font-size: 4rem;
 }
@@ -70,7 +94,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 1000px;
 }
 
 .card {
@@ -108,7 +132,7 @@
   margin-left: 0.5rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .grid {
     width: 100%;
     flex-direction: column;
@@ -121,7 +145,7 @@
     border-color: #222;
   }
   .code {
-    background: #111;
+    background: rgb(214, 211, 211);
   }
   .logo img {
     filter: invert(1);
